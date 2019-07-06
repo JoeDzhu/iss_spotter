@@ -16,5 +16,6 @@ nextFlyOverTime()
   .catch((error) => {
     console.log('May day!', error.message);
   });
+  //if didn't catch the error, didn't settle, will see UnhandledPromiseRejectionWarning
 
 
